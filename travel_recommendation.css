@@ -1,0 +1,86 @@
+/* Basic CSS for the navigation bar */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: #0058bd;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  nav ul {
+    list-style-type: none;
+    /* padding: 0; */
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Basic CSS for the form elements */
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url(beach.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* margin: 20px; */
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  div {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 200px;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 7px 15px;
+    background-color: #8ce4f0;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #fc9803;
+  }
+
+  div{
+    color: whitesmoke;
+    text-align: center;
+  }
+
+  #homepage{padding-top: 20%;
+  padding-right: 35%;
+  padding-left: 10%;}
+
+  #aboutsection{
+    padding: 5%;
+  }
