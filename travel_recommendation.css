@@ -86,9 +86,12 @@ nav {
 
   .contactpage{
     color: orangered;
-    padding-top: 5%;
-    padding-right: 5%;
-    padding-left: 5%;}
+   font-size:x-large;
+   text-align: center;
+   padding-top: 20%;
+   padding-left: 0%;
+   width: 50%;
+ }
   
 
 
@@ -131,16 +134,17 @@ nav {
     font-style: italic;
   }
 
-
-  .contactForm {
+  #contactForm {
     float: right;
-    padding-right: 30%;
+    padding-right: 15%;
+    padding-bottom: 30%;
+    text-align: left;
+    color: whitesmoke;
+    width: 40%;
    }
 
-   .cform{
-    color: whitesmoke;
-    text-align: right;
+   
+   textarea{
     resize: none;
-    padding-right: 20%;
-    padding-top: 10%;
    }
+  
