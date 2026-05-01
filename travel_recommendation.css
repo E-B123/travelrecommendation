@@ -74,16 +74,23 @@ nav {
 
   .aboutpage{
     color: whitesmoke;
-    text-align: center;
-  }
-
-  #homepage{padding-top: 20%;
-  padding-right: 35%;
-  padding-left: 10%;}
-
-  #aboutsection{
+    text-align: center; 
     padding: 5%;
   }
+
+  .homepage{
+  color: orangered;
+  padding-top: 20%;
+  padding-right: 10%;
+  padding-left: 10%;}
+
+  .contactpage{
+    color: orangered;
+    padding-top: 5%;
+    padding-right: 5%;
+    padding-left: 5%;}
+  
+
 
  /* Three columns side by side */
 .column {
@@ -125,13 +132,15 @@ nav {
   }
 
 
-  form {
+  .contactForm {
     float: right;
-    padding-right: 10%;
+    padding-right: 30%;
    }
 
    .cform{
     color: whitesmoke;
-    text-align: center;
-
+    text-align: right;
+    resize: none;
+    padding-right: 20%;
+    padding-top: 10%;
    }
