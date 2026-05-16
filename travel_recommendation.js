@@ -1,18 +1,15 @@
 
-
-
-
-function searchCondition() {
-    const input = document.getElementById('conditionInput').value.toLowerCase();
+function searchDestination() {
+    const input = document.getElementById('destinationInput').value.toLowerCase();
     const resultDiv = document.getElementById('result');
     resultDiv.innerHTML = '';
 
     fetch('travel_recommendation_api.json')
       .then(response => response.json())
       .then(data => {
-        const condition = data.conditions.find(item => item.name.toLowerCase() === input);
+        const country = data.countries.find(item => item.name.toLowerCase() === input);
 
-        if (condition) {
+        if (country) {
           const symptoms = condition.symptoms.join(', ');
           const prevention = condition.prevention.join(', ');
           const treatment = condition.treatment;
